@@ -2,9 +2,7 @@ export function sum(...args: number[]): number {
     const arr = [...args];
     let res = 0;
     let i = 0;
-
-    if (arr.length === 0) return res;
-
+    
     do {
         res += arr[i] ?? 0;
         i++;

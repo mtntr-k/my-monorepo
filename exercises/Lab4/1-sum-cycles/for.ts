@@ -1,4 +1,3 @@
-// 1. Цикл for
 export function sum(...args: number[]): number {
     const arr = [...args];
     let res = 0;
